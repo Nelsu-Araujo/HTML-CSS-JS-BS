@@ -1,0 +1,145 @@
+.timeline {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image: url('/Images/marjan-blan-_kUxT8WkoeY-unsplash.jpg'); /* Foto de <a href="https://unsplash.com/pt-br/@marjan_blan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marjan Blan</a> na <a href="https://unsplash.com/pt-br/fotografias/_kUxT8WkoeY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    margin-right: 50%;
+    background-image: url('/Images/marjan-blan-_kUxT8WkoeY-unsplash.jpg'); /* Foto de <a href="https://unsplash.com/pt-br/@marjan_blan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marjan Blan</a> na <a href="https://unsplash.com/pt-br/fotografias/_kUxT8WkoeY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -15px;
+    background-color: white;
+    border: 4px solid gray;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left {
+    left: 0;
+    width: 40%;
+  }
+  
+  .right {
+    left: 50%;
+    padding-right: 13%;
+  
+  }
+  
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 35px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent black;
+  }
+  
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 35px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent black transparent transparent;
+  }
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  .content {
+    padding: 20px 30px;
+    background-color: black;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .h2About{
+    color: white;
+    font-family: 'philosopher';
+    font-weight: 500;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .pAbout{
+    color: white;
+    font-family: 'open sans';
+    font-weight: 300;
+  }
+  
+  /* Media queries */
+  
+  @media screen and (max-width: 600px) {
+    .timeline::after {
+      left: 31px;
+    }
+  
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+    .right {
+      left: 0%;
+    }
+  }
+
+
+main{
+  background-image: url('/Images/marjan-blan-_kUxT8WkoeY-unsplash.jpg') ;
+}

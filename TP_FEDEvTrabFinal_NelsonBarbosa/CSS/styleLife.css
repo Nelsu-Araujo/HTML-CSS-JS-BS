@@ -1,0 +1,68 @@
+#carouselExampleCaptions{
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: 1px solid;
+    box-shadow: 15px 15px 5px #000000b5;
+}
+
+.carousel-title{
+    color: black;
+    font-family: 'open sans';
+    font-weight: 300;
+    font-size:x-large;
+}
+
+.carousel-1title{
+    margin-top: 3%;
+    color: black;
+    font-family: 'philosopher';
+    font-size: larger;
+    text-align: center;
+}
+
+.secondblock{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.recipe{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: lightgray;
+    padding-bottom: 0%;
+    padding-right: 4%;
+}
+
+.beach{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: lightgray;
+    padding-bottom: 0%;
+    padding-right: 4%;
+}
+
+.videobeach{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+p{
+    font-family: 'open sans';
+    font-weight: 300;
+    font-size: 90%;
+    text-align: justify;
+}
+
+.ingredients{
+    font-family: 'open sans';
+    font-weight: 300;
+    font-size: 85%;
+    text-align: justify;
+    padding-top: 2%;
+}
